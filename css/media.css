@@ -1,0 +1,41 @@
+@media (max-width: 640px) {
+
+    .header__menu-btn {
+        display: block;
+        /*justify-content: space-between;*/
+    }
+
+    .header__menu ul {
+        display: none;
+    }
+
+    .header__inner ul {
+        display: none;
+    }
+
+    .header__logo {
+        display: none;
+    }
+
+    .header__logo-mobile {
+        display: block;
+    }
+
+    .header__menu-mobile {
+        display: flex;
+        justify-content: space-evenly;
+        line-height: 3.5rem;
+    }
+
+    .footer__inner li {
+        display: none;
+    }
+
+    .footer__inner img {
+        display: none;
+    }
+}
+
+.footer__inner p {
+    font-size: 0.9rem;
+}
